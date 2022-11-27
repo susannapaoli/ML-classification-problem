@@ -8,3 +8,4 @@ This is a general machine learning workflow implementation for a classification 
 Each model is first evaluated using standardized hyper-parameters and cross-validation. After that, we move to hyper-parameter tuning, by creating a table of parameters to be tested and using then a GridSearchCV. 
 
 Models are implemented using simple machine learning pipelines, with scalers and models. 
+Finally, based on accuracy, the best model is selected
